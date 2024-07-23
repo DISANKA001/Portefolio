@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:beige; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color:olive ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h4{
+    text-align: center;
+    color: saddlebrown;
+    font-weight: bold;
+
+
+}
+label{
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type ="text"],
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: saddlebrown;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: peru;
+}
+
+input:focus,
+button:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
